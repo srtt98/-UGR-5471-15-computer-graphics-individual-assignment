@@ -13,13 +13,4 @@ Interactive parts — click individual lamp components (base, stand, arm, head, 
 
 Responsive design — renderer automatically adjusts on window resize
 
-📁 Project Structure
-/index.html          # HTML container & import maps
-/styles.css         # Fullscreen canvas + info panel styling
-/scripts/
-  ├─ initScene.js         # Sets up scene, camera, renderer, OrbitControls
-  ├─ createProduct.js     # Builds the desk lamp with basic meshes
-  ├─ addLighting.js       # Adds ambient, directional, point lights
-  ├─ interaction.js       # Raycasting logic for mouse interaction
-  ├─ cameraAnimation.js   # Auto-rotation & user-control switching
-  └─ main.js              # Entry point, imports everything & starts loop
+
