@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#info-panel {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    background: rgba(235, 235, 235, 0.8);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+
+.hidden {
+    display: none;
+}
+
+canvas {
+    display: block;
+}
